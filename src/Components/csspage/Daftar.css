@@ -1,0 +1,89 @@
+.daftar {
+    width: 100vh;
+}
+
+.logo-daftar {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-left: -400px;
+    margin-top: -70px;
+}
+.logo-daftar a {
+    color: black;
+    color: 'black';
+    font-size: 25px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    padding-top: -10px;
+    text-decoration: none;
+}
+.gambar-daftar img{
+    width: 500px;
+    display: flex;
+    margin-left: -20px;
+    margin-top: 50px;
+}
+
+.gambar-daftar h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 200px;
+    margin-top: 0px;
+    line-height: 50px;
+}
+
+
+.daftar-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+.daftar-input input {
+    width: 350px;
+    height: 45px;
+    border-radius: 15px;
+    font-size: 14px;
+    padding-left: 20px;
+    outline: none;
+    border-style: groove;
+    background-color: #c2c2c236;
+    margin-top: 1.5rem;
+}
+
+.signup{
+    width: 350px;
+    height: 50px;
+    justify-content: center;
+    outline: none;
+    background: black;
+    border-radius: 30px;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    margin-left: 150px;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    
+}
+.signup:hover {
+        background-color: #393939;
+}
+.buttonSignup{
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #F4D669;    
+}
+.yakinDaftar p{
+    gap: 10px;
+}

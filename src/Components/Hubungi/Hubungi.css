@@ -1,0 +1,93 @@
+.Hubungi {
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    margin-bottom: 100px;
+    margin-top : 100px;
+}
+
+.kiri {
+    justify-content: center;
+    margin-left: -200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.kiri h2 {
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.kiri img {
+    width: 400px;
+    height: 400px;
+}
+
+.kanan {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-right: -150px;
+}
+
+.container4 {
+    display: flex;
+    background-color: white;
+    border: 20px;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 10px 10px 10px #c0c0c0;
+}
+
+
+.container4 input {
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 30px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 300px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+}
+
+.kirim {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 20px;  
+    margin-top: 40px;  
+}
+
+.buttonHub{
+    width: 150px;
+    height: 45px;
+    justify-content: center;
+    outline: none;
+    background: black;
+    border-radius: 20px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    margin-bottom:0px;
+    margin-left: 0px;
+}
+
+.buttonHub:hover {
+    background-color: #393939;
+}

@@ -1,0 +1,160 @@
+.mlebu {
+    justify-content: center;
+    width: 100vh;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4D669;
+    height: 643px;
+    width: 800px;
+    margin: 0;
+    flex-direction: column;
+}
+
+.title-masuk{
+    margin-top: -30px;
+}
+
+.logo {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-left: -400px;
+}
+.logo a {
+    color: black;
+    color: 'black';
+    font-size: 25px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    padding-top: -10px;
+    text-decoration: none;
+}
+.gambar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gambar img {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    margin-left: -100px;
+    margin-top: 35px;
+}
+
+.gambar h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 200px;
+    margin-top: 20px;
+    line-height: 50px;
+}
+.right{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    border: black;
+    background-color: #ffffff;
+    margin-left: 700px;
+    height: 643px;
+    width: 650px;
+    margin-top: -643px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-style: solid;
+    border-bottom: 0;
+    border-right: 0;
+    border-top: 0;
+}
+
+.right h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #F4D669;
+    margin-top: 100px;
+    margin-right: 20px;
+}
+
+.right p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 20px;
+    
+}
+.daftar-input{
+    margin-top: 20px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.input input {
+    width: 350px;
+    height: 45px;
+    border-radius: 15px;
+    font-size: 14px;
+    padding-left: 20px;
+    outline: none;
+    border-style: groove;
+    background-color: #c2c2c236;
+}
+
+.masukin {
+    width: 350px;
+    height: 50px;
+    justify-content: center;
+    outline: none;
+    background: black;
+    border-radius: 30px;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    margin-left: 150px;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.masukin:hover{
+    background-color: #393939;
+}
+
+.yakin  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.yakin p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.yakin a {
+    color: #F4D669;
+    text-decoration: none;
+    margin-left: 5px;
+}

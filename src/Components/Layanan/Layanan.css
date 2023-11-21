@@ -1,0 +1,151 @@
+.layanan{
+    background-color: #F4D669;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 150vh;
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title h2 {
+    font-size: 50px;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.title p {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.tebal {
+    font-weight: 700;
+}
+
+.telu {
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 100px;
+}
+
+
+.container1{
+    background-color: white;
+    width: 200px;
+    height: 220px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 7px 7px 7px #49494985;
+    text-decoration: none;
+}
+.link {
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    
+}
+.container1:hover{
+    background-color: #ececec;
+    transition: 1s ease;
+    box-shadow: none;
+}
+.container1 img {
+    width: 100px;
+    height: 110px;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.container1 p {
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    font-display: center;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration-line: none;
+}
+
+.container2 {
+    background-color: white;
+    width: 200px;
+    height: 220px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: 5px 5px #49494985;
+}
+
+
+
+.container2:hover {
+    background-color: #cac9c9;
+}
+
+.container2 img {
+    width: 110px;
+    height: 110px;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.container2 p {
+    color: black;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    font-display: center;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.container3 {
+    background-color: white;
+    width: 200px;
+    height: 220px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: 5px 5px #49494985;
+}
+
+.container3:hover{
+    background-color: #cac9c9;
+}
+
+.container3 img {
+     width: 110px;
+    height: 110px;
+    padding-left:45px;
+    padding-top: 20px;
+}
+
+.container3 p {
+    color: black;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    font-display: center;
+    text-align: center;
+    padding-top: 10px   
+}
+
+
+

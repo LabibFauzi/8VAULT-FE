@@ -1,0 +1,407 @@
+.barang{
+    display: flex;
+    width: 100%;
+}
+
+/*kiri*/
+.barang-kiri{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: #F4D669;
+    position: fixed;
+    height: 100%;
+}
+
+
+/*logo*/
+.barang-logo{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.barang-logo p {
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+}
+
+
+
+/*ini menu*/
+
+.menu1-brg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    width: 210px;
+    gap: 20px;
+    margin-top: 50px;
+    padding: 15px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+.menu1-brg:hover{
+    background-color: #d9d9d952;
+}
+.menu1-brg P {
+     font-size: 12px;
+    font-weight: 600;
+    color: black;
+}
+
+.menu1-brg img {
+    width: 30px;
+    height: 27px;
+}
+
+.menu2-brg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 210px;
+    gap: 15px;
+    margin-top: 10px;
+    padding: 15px;
+    padding-left: 23px;
+    cursor: pointer;
+}
+.menu2-brg:hover{
+    background-color: #d9d9d952;
+}
+.menu2-brg img {
+    width: 30px;
+    height: 33px;
+}
+
+.menu2-brg p {
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+}
+.menu3-brg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 210px;
+    gap: 13px;
+    margin-top: 10px;
+    padding: 15px;
+    padding-left: 23px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+    border: 5px black solid;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+}
+.menu3-brg:hover{
+    background-color: #d9d9d9e8;
+}
+.menu3-brg img {
+    width: 33px;
+    height: 33px;
+}
+
+.menu3-brg p {
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+}
+.menu4-brg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 210px;
+    gap: 15px;
+    margin-top: 10px;
+    padding: 15px;
+    padding-left: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+.menu4-brg:hover{
+    background-color: #d9d9d952;
+}
+.menu4-brg img {
+    width: 33px;
+    height: 33px;
+}
+.menu4-brg p {
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+}
+
+
+
+
+
+/*kanan*/
+
+.barang-kanan{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 1000px;
+    height: 100%;
+    margin-left: 280px;
+}
+
+.title-brg{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+/* ini search
+.duaa{
+    margin-top: -40px;
+    margin-left: 485px;
+    margin-bottom: 50px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pilter{
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 15px;
+    justify-content: center;
+    padding-left: 20px;
+    border: 2px solid;
+  } */
+  
+  /* .btn-tambah{
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    outline: none;
+    background: black;
+    border-radius: 10px;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+  } */
+
+
+
+/*ini label*/
+.tambah-container {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  .tambah{
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: white;
+    width: 25em;
+  }
+.title-tambah{
+    display: flex;
+    padding-bottom: 1rem;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+.title-tambah h2 {
+    font-size: 30px;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  .form-group input,
+  .form-group select {
+    border-radius: 0.5rem;
+    text-decoration-line: none;
+    border: none;
+    padding: 0.7rem;
+    font-size: 1.2rem;
+    background-color: #D9D9D9;
+  }
+
+  .form-group label {
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    margin-left: 5px;
+  }
+  .error {
+    color: #df4759;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+    font-size: 13px;
+    text-align: center;
+  }
+  .tombol-kematian{
+    display: flex;
+  }
+  .btntambah-dlm{
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    outline: none;
+    background: black;
+    border-radius: 10px;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+    margin-left: 150px;
+  }
+  .btn-batal{
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    outline: none;
+    background: black;
+    border-radius: 10px;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+    position: fixed;
+    margin-top: 0px;
+    margin-left: 30px;
+  }
+
+
+
+
+/*ini table*/
+.tambahbarang{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }   
+.tambahbarang-wrap {
+    width: 1050px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.table-barang{
+    display: block;
+    overflow: hidden;
+    table-layout: auto;
+    border-collapse:collapse;
+    white-space: nowrap;
+    overflow-x: auto;
+    width: 1020px;
+    font-size: 16px;
+    margin: auto;
+    margin-bottom: 100px;
+    box-shadow: 5px 10px 20px #ccc;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.table-barang thead{
+    background-color: #3f3f3f;
+    color: rgb(255, 255, 255);
+    border: 1px #3f3f3f solid;
+    cursor: pointer;
+}
+.table-barang tbody {
+    justify-content: left;
+}
+
+.table-barang th,
+.table-barang td {
+    padding: 1.5rem;
+}
+
+.table-barang td {
+    overflow: hidden;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    border: 1px solid #cac9c9;
+    border-radius: 0;
+}
+
+
+.expandid-brg{
+    font-size: 16px;
+}
+
+.expandkategori-brg {
+    width: 500px;
+}
+
+.expand-barang {
+    width: 700px;
+
+}
+.expand-kuantitas{
+width: 300px;
+
+}
+.expandket-brg{
+    width: 100px;
+}
+
+.expandaksi-brg {
+    width: 100px;
+}
+
+
+.action-barang {
+    display: flex;
+    justify-content: space-around;
+}
+.action-barang svg {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.sampah{
+    color: red;
+    width: auto;
+    height: 20px;
+}
+
+.pensil{
+    width: auto;
+    height: 20px;
+    color: green;
+}
+.tbody-barang input,
+.tbody-barang select {
+  background-color: #D9D9D9;
+  outline: none;
+  border: 1px solid;
+  width: auto;
+  height: 25px;
+  font-size: 10px;
+  font-weight: 500;
+  padding-left: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.aksi-barang img {
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+
+
